@@ -11,7 +11,7 @@
     ],
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-main",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
