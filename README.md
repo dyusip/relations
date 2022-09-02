@@ -4,17 +4,17 @@ Set eloquent relationships with table that contains comma separated values as a 
 # Installation
 Get package using composer  :
 
-`composer require josef/relations`
+`composer require josef/postgre-comma-relations`
 
 # 1.
-You have to extends `GhanuZ\Model` class instead of `Illuminate\Database\Eloquent\Model`
+You have to extends `Josef\Model` class instead of `Illuminate\Database\Eloquent\Model`
 
 ```
 <?php
 
 namespace App;
 
-use GhanuZ\Model;
+use Josef\Model;
 
 class Test extends Model
 {
@@ -24,7 +24,7 @@ class Test extends Model
 ## You can also use traits instead of extend Model class 
 Like in Laravel, `Users` model not extending `Model` class.
 So you can use `trait`.
-`GhanuZ\FindInSet\FindInSetRelationTrait`
+`Josef\FindInSet\FindInSetRelationTrait`
 
 Example:
 ```
@@ -34,7 +34,7 @@ namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use GhanuZ\FindInSet\FindInSetRelationTrait;
+use Josef\FindInSet\FindInSetRelationTrait;
 
 class User extends Authenticatable
 {

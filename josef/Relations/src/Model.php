@@ -1,6 +1,6 @@
 <?php
 
-namespace GhanuZ;
+namespace Josef;
 
 use Illuminate\Database\Eloquent\Model as LaravelModel;
 use GhanuZ\FindInSet\FindInSetRelationTrait;

@@ -1,5 +1,5 @@
 <?php
-namespace GhanuZ\FindInSet;
+namespace Josef\FindInSet;
 
 trait FindInSetRelationTrait {
 
