@@ -1,5 +1,5 @@
 <?php
-namespace GhanuZ\FindInSet;
+namespace Josef\FindInSet;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
