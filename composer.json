@@ -1,5 +1,5 @@
 {
-    "name": "josef/eloquent-relations",
+    "name": "josef/postgre-comma-relations",
     "version": "2.2",
     "description": "To create a Eloquent relationships with comma separated foreign key or using a string_to_array postgre function.",
     "keywords": ["laravel", "eloquent", "relationship", "comma-separate", "string_to_array"],
